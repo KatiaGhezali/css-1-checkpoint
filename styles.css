@@ -1,0 +1,139 @@
+body {
+  background-color: #1a1919;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 15px;
+  text-align: center;
+}
+
+.navlink {
+  display: inline;
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navlink:hover {
+  color: #4961d8;
+}
+
+#home {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.btn {
+  background-color: #4961d8;
+
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #303f80;
+}
+
+dt {
+  font-weight: bold;
+}
+
+h3,
+h5 {
+  color: #4961d8;
+}
+
+#about {
+  padding: 50px 20px;
+  margin: 50px 20px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skill {
+  display: inline-block;
+  padding: 5px;
+  margin: 6px;
+  border: solid #4961d8;
+  border-radius: 7px;
+}
+
+.skill:hover {
+  background-color: #303f80;
+  cursor: pointer;
+}
+
+.navlink,
+.btn,
+.skill {
+  transition: all 0.3s ease;
+}
+
+#work,
+#resume {
+  padding: 50px 20px;
+  margin: 50px 20px;
+}
+
+#contact {
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+.projects {
+  padding: 40px;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4961d8;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  background-color: #444;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.project-info h3 {
+  margin: 0;
+  color: #4961d8;
+}
+
+.project-info p {
+  margin-top: 10px;
+}
+
+.vid {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+}
